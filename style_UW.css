@@ -1,0 +1,423 @@
+
+header {
+    background-color: #ecebdf;
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.footeritems li {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.footeritems {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+
+}
+.footerTitles li, a, hr {
+margin: 0;
+padding: 0;
+text-decoration: none;
+list-style: none;
+}
+.footerTitles {
+display: flex;
+height: fit-content;
+font-size: 20px;
+flex-direction: column;
+justify-content: center;
+align-items: stretch;
+align-content: center;
+flex-wrap: nowrap;
+margin: 20px;
+}
+
+.botfooter svg {
+margin-left: 5px;
+}
+.botfooter {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-direction: row;
+height: 50px;
+min-width: 80%;
+}
+footer {
+background-color: #ecebdf;
+height: fit-content;
+display: flex;
+align-items: stretch;
+box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+position: relative;
+z-index: 11;
+flex-direction: column;
+align-content: center;
+flex-wrap: wrap;
+
+}
+.footerlogo {
+height: 80%;
+border-right: 1px solid rgb(0, 0, 0);
+padding-right: 30px;
+margin: 20px;
+}
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    background-color: #ecebdf;
+
+}
+.logo {
+    height: 75px;
+    margin-left: 50px;
+}
+.logo:hover {
+  animation: headShake;
+  animation-duration: 1s;
+}
+.amazonBTN:hover {
+  animation: tada; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s;
+}
+a, button {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    text-decoration:none;
+    color: #000;
+    font-weight: 500;
+}
+button {
+    margin-right: 50px;
+    padding: 9px 25px;
+}
+.navList {
+    list-style: none;
+}
+.navList li a:hover {
+    color: #7f7f7f;
+}
+.navList li a {
+    transition: all 0.3s ease 0s;
+}
+.navList li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.button-79 {
+  backface-visibility: hidden;
+  background: #000000;
+  border: 0;
+  border-radius: .375rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,Helvetica,sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: -.01em;
+  line-height: 1.3;
+  padding: 1rem 1.25rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.ItemIMG {
+  height: 450px;
+  border-radius: 3%;
+  margin-left: 70px;
+  /*
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  */
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.leftPicBlock {
+  margin-top: 100px;
+}
+.rightPicBlock {
+  margin-top: 100px;
+}
+.itemDis {
+  max-width: 550px;
+  margin-top: 20px;
+}
+.amazonBTN {
+  height: 40px;
+}
+.discription {
+  margin-left: 70px;
+}
+.form-control {
+  border-radius: 10px;
+}
+/*gradient*/
+.textShineBlack {
+  background: linear-gradient(to right, rgb(255, 0, 0) 10%, #ff9100 20%, #fffb00 30%, rgb(21, 255, 0) 50%, rgb(0, 255, 213) 60%, rgb(0, 47, 255) 80%, rgb(255, 0, 170) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+.pegCont {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px 20px 0px;
+}
+.page-link {
+  background-color: #f2f1e4;
+  color: black;
+}
+/*
+*/
+
+/*parallax*/
+.wrapper {
+  min-height: 100%;
+}
+._container {
+  max-width: 1000px;
+  margin: 0px auto;
+  padding: 50px 20px;
+}
+.parallax {
+  min-height: 100vh;
+
+}
+.parallax_body {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+}
+.parallax_container {
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+}
+.parallax_logo {
+  display: flex;
+  font-size: 50px;
+  letter-spacing: 6px;
+  margin: 0 0 30px 0;
+  align-items: center;
+}
+.parallax_img {
+  position: absolute;
+  width: 112%;
+  height: 112%;
+  top: -6%;
+  left: -6%;
+  z-index: 1;
+}
+.img-parallax_item {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.img-parallax_bg, 
+.img-parallax_bag1,
+.img-parallax_bag2,
+.img-parallax_bag3,
+.img-parallax_bag4,
+.img-parallax_bag5,
+.img-parallax_bag6,
+.img-parallax_garbage,
+.img-parallax_sky {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+.img-parallax_sky {
+  background: url('../webtech\ project/img/paralax_home/items/sky_bg.png') top / cover no-repeat;
+  top: 0;
+}
+.img-parallax_bg {
+  background: url('../webtech\ project/img/underwaterimgitems/bg.png') top / cover no-repeat;
+  top: 0;
+}
+.img-parallax_bag4 {
+  background: url('../webtech\ project/img/underwaterimgitems/bag4.png') top / cover no-repeat;
+  top: 0;
+  z-index: 2;
+}
+.img-parallax_bag3 {
+  background: url('../webtech\ project/img/underwaterimgitems/bag3.png') top / cover no-repeat;
+  top: 0;
+  z-index: 3;
+}
+.img-parallax_bag1 {
+  background: url('../webtech\ project/img/underwaterimgitems/bag1.png') top / cover no-repeat;
+  top: 0;
+  z-index: 3;
+  animation-name: floatingGar;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.img-parallax_garbage {
+  background: url('../webtech\ project/img/underwaterimgitems/garbageUnderwaterLogo.png') top / cover no-repeat;
+  top: 0;  
+  z-index: 4;
+}
+.img-parallax_bag2 {
+  background: url('../webtech\ project/img/underwaterimgitems/bag2.png') top / cover no-repeat;
+  top: 0;
+  z-index: 5;
+}
+.img-parallax_bag6 {
+  background: url('../webtech\ project/img/underwaterimgitems/bag6.png') top / cover no-repeat;
+  top: 0;
+  z-index: 6;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+.img-parallax_bag5 {
+  background: url('../webtech\ project/img/underwaterimgitems/bag5.png') top / cover no-repeat;
+  top: 0;
+  z-index: 7;
+}
+
+.other_cont {
+  background-color: #ecebdf;
+  position: relative;
+  z-index: 10;
+}
+.cont_title {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 50px;
+}
+.cont_text {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  font-size: 30px;
+}
+.cont_text p {
+  margin: 30px 0 0 0;
+}
+
+#carouselExampleCaptions {
+  margin-top: 4rem;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  border-radius: 0.5em;
+}
+.d-block {
+  border-radius: 0.5em;
+}
+
+.btn-primary:focus {
+  background-color: transparent;
+  border-color: transparent;
+  color: black;
+  box-shadow: transparent;
+}
+.btn-primary:hover {
+  background-color: transparent;
+  border-color: transparent;
+  color: black;
+}
+.btn-primary {
+  z-index: 20;
+  position: fixed;
+  background-color: transparent;
+  border-color: transparent;
+  color: black;
+  margin: 10px 0 0 10px;
+}
+.bi-three-dots {
+  width: 2em;
+    height: 2em;
+}
+.offcanvas-start {
+  background-color: rgba(255, 255, 255, 0.164);
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+  left: 0;
+  backdrop-filter: blur(6px);
+  border-radius: 15px;
+}
+.navListHome {
+  list-style: none;
+  font-size: 40px;
+}
+.navListHome li a:hover {
+  color: #7f7f7f;
+}
+.navListHome li a {
+  transition: all 0.3s ease 0s;
+}
+
+@keyframes floating {
+  0% { transform: translate(0,  0px); transform: rotate(3deg); }
+  50%  { transform: translate(0, 25px); transform: rotate(5deg); }
+  100%   { transform: translate(0, -0px); transform: rotate(3deg);}   
+}
+@keyframes floatingGar {
+  0% { transform: translate(0,  0px); transform: rotate(-2deg); }
+  50%  { transform: translate(0, -145px); transform: rotate(5deg); }
+  100%   { transform: translate(0, -0px); transform: rotate(-2deg);}   
+}
+.accordion {
+  margin: 50px 0 50px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.accordion-item{
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+.accordion-item:first-of-type .accordion-button {
+  border-top-right-radius: calc(1.25rem - 1px);
+  border-top-left-radius: calc(1.25rem - 1px);
+}
+
+.accordion-item:first-of-type {
+  border-top-right-radius: calc(1.25rem);
+  border-top-left-radius: calc(1.25rem);
+}
+.accordion-item:last-of-type{
+  border-bottom-right-radius: 1.25rem;
+  border-bottom-left-radius: 1.25rem;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #ecebdf;
+}
+
+.accordion-button:focus{
+  border-color: transparent;
+  box-shadow: none;
+}
+.soundButton {
+  height: 50px;
+}
